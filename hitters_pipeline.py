@@ -175,7 +175,7 @@ def main():
     best_models = hyperparameter_optimization(X, y)
     voting_reg = voting_regressorr(best_models, X, y)
     os.chdir("/Users/Tuzcu/Desktop/DSMLBC/")
-    joblib.dump(voting_reg, "voting_clf_diabetes.pkl")
+    joblib.dump(voting_reg, "voting_clf_hitters.pkl")
     print("Voting_clf has been created")
     return voting_reg
 
