@@ -1,5 +1,5 @@
 
-########################### End-to-End Hitters Learning Pipeline II ###########################
+########################### End-to-End Hitters Machine Learning Pipeline II ###########################
 
 import joblib
 import os
@@ -175,8 +175,8 @@ def main():
     best_models = hyperparameter_optimization(X, y)
     voting_reg = voting_regressorr(best_models, X, y)
     os.chdir("/Users/Tuzcu/Desktop/DSMLBC/")
-    joblib.dump(voting_reg, "voting_clf_hitters.pkl")
-    print("Voting_clf has been created")
+    joblib.dump(voting_reg, "voting_reg_hitters.pkl")
+    print("Voting_reg has been created")
     return voting_reg
 
 if __name__ == "__main__":
