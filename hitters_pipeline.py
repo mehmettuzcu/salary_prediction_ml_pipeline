@@ -1,5 +1,5 @@
 
-########################### End-to-End Diabetes Machine Learning Pipeline II ###########################
+########################### End-to-End Diabetes Hitters Learning Pipeline II ###########################
 
 import joblib
 import os
